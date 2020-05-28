@@ -1,0 +1,74 @@
+h1 {
+  font-family: futura, arial;
+  text-align: center;
+  color: green;
+}
+
+h2 {
+  font-family: futura;
+  text-align: center;
+  color: yellow;
+}
+
+h3 {
+  font-family: futura;
+  text-align: center;
+  color: orange;
+}
+
+.lead {
+  font-family: futura;
+  color: tan;
+}
+
+.nav-link {
+  font-family: futura;
+  color: pink;
+}
+
+.cover-container {
+  border: .5rem dashed green;
+}
+
+.inner {
+  border: .25rem solid pink;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 1%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  background-color: white;
+}
+
+button {
+  border: 0;
+  border-color: yellow;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid red;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 15%;
+  float: left;
+  cursor: pointer;
+}
